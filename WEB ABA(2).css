@@ -1,0 +1,182 @@
+/* General Styles */
+body {
+    background-image: url('E:/HTML/WEB ABA/Home page BG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+    flex-direction: column;
+}
+
+header {
+    background-color: #333333; /* Dark gray background */ 
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 10px 0 0; /* Rounded top corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 1.2;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 1.5em;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 1.2;
+    padding: 8px 5px;
+    border-bottom: 1px solid #ccc;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: gray;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px 10px 10px 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+h4 {
+    color: #333333;
+    background-color: #e0e0e0;
+}
+
+main {
+    background: #ffffff; /* White background for the content */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Adjust width as needed */
+    max-width: 1200px; /* Maximum width */
+}
+
+/* Grid Layout for 9 Boxes */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Space between boxes */
+    padding: 20px;
+}
+
+.box {
+    background: #e0e0e0; /* Light gray background for boxes */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.box:hover {
+    background: #d0d0d0; /* Slightly darker gray on hover */
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.box h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333333; /* Dark gray text */
+}
+
+.box p {
+    margin: 10px 0 0;
+    color: #666666; /* Medium gray text */
+}
+
+/* Link Styles */
+a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #242124; /* Dark gray background */
+    color: #ecf0f1; /* Light gray text */
+    padding: 40px 200px 40px 200px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #3498db; /* Accent color for headings */
+}
+
+.footer-section p {
+    margin: 8px 0;
+    font-size: 0.9em;
+    color: #bdc3c7; /* Light gray text */
+}
+
+.footer-section a {
+    color: #ecf0f1; /* White links */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: #3498db; /* Blue on hover */
+}
+
+.footer-bottom {
+    background-color: #34495e; /* Slightly darker gray for the bottom section */
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.8em;
+    color: #bdc3c7; /* Light gray text */
+}
